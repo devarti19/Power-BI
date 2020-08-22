@@ -1,0 +1,6 @@
+Cumulative Sales = CALCULATE([Total Sales], FILTER(ALLSELECTED('Date'[Date]<= MAX('Date'[Date]))))
+
+
+
+Average Calculation:
+50 Dats AC= AVERAGE(DATESINPERIOD('Date['Date'], LASTDATE('Date['Date']), -50, DAY),[Total Cost]
